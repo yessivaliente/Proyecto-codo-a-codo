@@ -1,0 +1,151 @@
+.fondoCuerpo{
+    background-color: rgb(28, 29, 29);
+    width: 90%;
+    margin-left: 5%;
+}
+
+.cabecera{
+    background-color: rgb(39, 38, 38);
+    padding: 25px;
+    text-align: center;
+}
+.nav-link {
+    color:green;
+}
+
+#tituloPrincipal{
+    color: rgb(29, 28, 28);
+    font-family: Verdana, Geneva, Tahoma;
+    letter-spacing: 3px;
+}
+
+.otrosTitulos{
+    color: black;
+    font-family: Verdana;
+}
+
+.contenedor{
+    background-color: rgb(249, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+
+#seccion{
+    max-width: 70%;
+    display: inline-block;
+    margin-left: 5px;
+    padding-top: 0px;
+}
+
+#articulo{
+    color:black;
+    padding: 5px 15px;
+    text-align: center;
+    font-family: arial;
+}
+
+
+.parrafo{
+    font-style: italic;
+    font-size: small;
+   
+}
+
+.logo{
+    width: 200px;
+}
+.portada{
+    text-align: right;
+    color: white;
+    font-size: x-large;
+   overflow: hidden;
+   position: relative;
+   justify-content: center;
+}
+.imagen{
+    text-align: right;
+    width: 100%;
+    height: 100%;
+
+}
+.confBsAs{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin: 40px;
+
+}
+.Octubre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.col-md-4{
+    background: rgb(43, 40, 40);
+    color:white;
+    font-size: 16px;
+    grid-column: auto;
+    text-align: left;
+    
+    
+   
+}
+.playa{
+    justify-content: flex-start;
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+.datos{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+   margin: 20px;
+}
+.comentarios{
+    justify-content: center;
+}
+.enviar{
+    column-gap: 0ch;
+}
+#anchoVideo{
+    width: 100%;
+   
+
+}
+
+#anchoIframe{
+    width: 100%;
+}
+/*footer*/
+.footer{
+   background-color: rgb(18, 18, 46);
+}
+.footer .container-footer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer .containar-footer a {
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    padding: 3rem 0;
+    color: rgb(169, 175, 180);
+    
+}
+.footer.containar-footer a:hover{
+    color: aliceblue;
+}
+span{
+    color:rgb(147, 187, 227);
+}
+@media screen and ( max-width: 768px){
+    .contairner{
+        background: red;
+    }
+}
