@@ -104,24 +104,24 @@
                   </p>  </div>
               </div>
         </div>
-       
-         <p> Conviertete en un</p>
-        <h3> <b >Orador</b></h3>
-        <p>Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar</p>
-        <form class="datos">
-          <label for="fname"></label><br>
-          <input type="text" id="fname" name="fname" placeholder="Nombre:"><br>
-          <label for="lname"></label><br>
-          <input type="text" id="lname" name="lname"  placeholder="Apellido:"> <br>
-        </form>  
-         <form class="comentarios" >
-         <br >
-          <textarea cols="70" rows="10" id="comentario" placeholder="Sobre que quiere hablar" name="comentario"></textarea> 
-          <button class="enviar" type="button">Enviar </button>
-          <label>Recuede incluir un título para tu charla> </label><br>
-         <br>
-        
-         </form>
+        <section class="form" id="form">
+          <div class="title">
+            <h6> Conviertete en un</h6>
+            <h2> <b >Orador</b></h2>
+            <h4>Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar</h4>
+          </div>
+           <div class="container-form">
+            <form action="">
+              <div class="first-last-name">
+                <input type="text" id="fname" name="fname" placeholder="Nombre:" required>
+                <input type="text" id="lname" name="lname"  placeholder="Apellido:" required>
+              </div>
+              <textarea class="input-about" id=""  cols="30" rows="6" placeholder="Sobre que quiere hablar" name="comentario"></textarea>
+                <h6>Recuerda incluir un título para tu charla</h6> 
+                <input class="btn-submit" type="submit" value="Enviar">
+            </form>
+           </div>
+        </section>
         <footer class="footer">
            <div class="container-footer">
             <a clas="footer-item" href="a">Preguntas frecuentes</a>

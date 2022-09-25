@@ -9,9 +9,6 @@
     padding: 25px;
     text-align: center;
 }
-.nav-link {
-    color:green;
-}
 
 #tituloPrincipal{
     color: rgb(29, 28, 28);
@@ -88,40 +85,16 @@
     font-size: 16px;
     grid-column: auto;
     text-align: left;
-    
-    
-   
 }
-.playa{
-    justify-content: flex-start;
-    width: 50%;
-    height: 50%;
-    display: flex;
-}
-.datos{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-   margin: 20px;
-}
-.comentarios{
-    justify-content: center;
-}
-.enviar{
-    column-gap: 0ch;
-}
-#anchoVideo{
-    width: 100%;
-   
-
-}
-
 #anchoIframe{
     width: 100%;
 }
+.container-form{
+    justify-content: center;
+}
 /*footer*/
 .footer{
-   background-color: rgb(18, 18, 46);
+   background-color: rgb(29, 29, 66);
 }
 .footer .container-footer{
     margin: 0 auto;
