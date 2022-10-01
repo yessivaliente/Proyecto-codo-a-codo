@@ -1,13 +1,6 @@
 .fondoCuerpo{
-    background-color: rgb(28, 29, 29);
-    width: 90%;
-    margin-left: 5%;
-}
+    width: 100%;
 
-.cabecera{
-    background-color: rgb(39, 38, 38);
-    padding: 25px;
-    text-align: center;
 }
 
 #tituloPrincipal{
@@ -21,14 +14,29 @@
     font-family: Verdana;
 }
 
-.contenedor{
-    background-color: rgb(249, 255, 255);
-    padding: 20px;
-    text-align: center;
-    margin-top: -5px;
+/* speakers */
+.speakers .contairner-speakers{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
-
-
+.speakers .title{
+    text-align: center;
+}
+.speakers .h6{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.speakers .card{
+    width: 30%;
+    min-width: 300px;
+}
+.speakers .card img {
+    width: 100%;
+}
 #seccion{
     max-width: 70%;
     display: inline-block;
@@ -60,21 +68,22 @@
     height: 100vh;
     
 }
-.shadow {
+.showcase .shadow {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
 }
-.contairner-flex {
+.showcase .contairner-flex {
     width: 80%;
     height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+ 
 }
-.content{
-    width: 50%;
+.showcase .content {
+     width: 50%;
     margin-bottom: 20vh;
     text-align: right;
     color: aliceblue;
@@ -201,23 +210,26 @@ margin-bottom: 1rem;
 .footer{
    background-color: rgb(29, 29, 66);
 }
-.footer .container-footer{
+.container-footer{
+    width: 80vw;
     margin: 0 auto;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
-.footer .containar-footer a {
+.containar-footer a {
     text-decoration: none;
     text-align: center;
+    color: var(--gray-200);
     width: 100px;
     padding: 3rem 0;
-    color: rgb(169, 175, 180);
+    
     
 }
 .footer.containar-footer a:hover{
-    color: aliceblue;
+    color: var(--gray-500);
 }
 span{
     color:rgb(147, 187, 227);
