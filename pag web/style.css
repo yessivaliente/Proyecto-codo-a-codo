@@ -202,11 +202,12 @@ margin-bottom: 1rem;
 /*footer*/
 .footer{
    background-color: rgb(29, 29, 66);
+  
 }
-.container-footer{
+.container-footer {
     width: 80vw;
     margin: 0 auto;
-    height: 100px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -220,8 +221,24 @@ footer .container-footer a {
     padding: 3rem 0;  
 }
 
-@media screen and ( max-width: 768px){
-    .contairner{
-        background: red;
+@media( max-width: 576px)
+{
+    .showcase .buttonarea {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media( max-width: 768px){
+    .footer .container-footer {
+        flex-direction: column;
+        padding: 1rem 0 ;
+    }
+    .footer .container-footer a {
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem 0;
     }
 }
