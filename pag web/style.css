@@ -112,6 +112,7 @@ border: 1px solid var(--gray-200);
     border: 1px solid rgba(0, 128, 0, 0.5);
    
 }
+/*octubre*/
 .imagen{
     text-align: right;
     width: 100%;
@@ -130,6 +131,7 @@ border: 1px solid var(--gray-200);
     grid-column: auto;
     text-align: left;
 }
+
 #anchoIframe{
     width: 100%;
 }
@@ -206,16 +208,14 @@ margin-bottom: 1rem;
     align-items: center;
     
 }
-.containar-footer a {
+footer .container-footer a {
     text-decoration: none;
     text-align: center;
     color: var(--gray-200);
     width: 100px;
-    padding: 3rem 0;
-    
-    
+    padding: 3rem 0;  
 }
-.footer.containar-footer a:hover{
+.footer.container-footer a:hover{
     color: var(--gray-500);
 }
 span{
